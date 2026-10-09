@@ -1,5 +1,5 @@
 # Copyright 2019 Yoshiya Hinosawa. All rights reserved. Blue Oak license.
-FROM ubuntu:latest
+FROM public.ecr.aws/ubuntu/ubuntu:latest
 RUN apt-get update
 RUN apt-get -y install curl git unzip
 RUN curl -fsSL https://deno.land/x/install/install.sh | sh -s v1.7.0
